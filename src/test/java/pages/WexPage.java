@@ -38,7 +38,7 @@ public class WexPage {
     }
 
     public WebElement getElement(String element) {
-       return test.getElement(element);
+        return test.getElement(element);
     }
 
     public WebElement getCssSelector(String element) {
@@ -46,10 +46,10 @@ public class WexPage {
     }
 
     public Boolean containsUrl(){
-        return test.urlConstains();
+        return test.urlContains();
     }
     public void testQuit(){
-        test.driverQuite();
+        test.driverQuit();
     }
 
 

@@ -75,11 +75,11 @@ public class WexincTest {
         return driver.getCurrentUrl();
     }
 
-    public Boolean urlConstains(){
+    public Boolean urlContains(){
         return driver.getPageSource().contains("total results");
     }
 
-    public void driverQuite(){
+    public void driverQuit(){
         driver.quit();
     }
 

@@ -22,7 +22,7 @@ public class StepDefinitions {
         pom = new WexPage();
     }
 
-    @Given("I navigate to “www\\.wexinc\\.com”\\.")
+    @Given("I navigate to “www.wexinc.com”")
     public void NavigateToWexincCom() throws Throwable {
         pom.NavigateToWex("https://www.wexinc.com/");
     }
@@ -73,6 +73,9 @@ public class StepDefinitions {
         if (urlExpect.equals(urlReturned)) {
             System.out.println("The expected page is loaded");
         }
+        else {
+            Assert.fail();
+        }
         pom.testQuit();
     }
 
@@ -82,11 +85,14 @@ public class StepDefinitions {
         if (textMessage.equals("Sorry, there are no results that meet this criteria.")) {
             System.out.println("Message returned: " + textMessage);
         }
+        else {
+            Assert.fail();
+        }
         pom.testQuit();
 
     }
 
-    @Then("I validate if the keyword searched match the displayed")
+    @Then("I validate if the keyword searched matches what was actually searched by the system")
     public void iValidateIfTheKeywordSearchedMatchTheDisplayed() throws Throwable {
         String displayedSearch = pom.getCssSelector("body > div.off-canvas-wrapper > div.off-canvas-content > div.wex-hero_container.wex-hero_container--short > div > div > nav > ul > li:nth-child(4)").getText();
         if (displayedSearch.contains(toSearch)) {
@@ -96,7 +102,7 @@ public class StepDefinitions {
 
     }
 
-    @And("I navigate to result search article")
+    @And("validate if the resulting article is really what is being shown as result")
     public void iNavigateToResultSearchArticle() {
         String articleResult = pom.getElement("//*[@id=\"mainContent\"]/div[2]/div/div/div[1]/h4/a").getText();
         pom.getElement("//*[@id=\"mainContent\"]/div[2]/div/div/div[1]/h4/a").click();
@@ -104,14 +110,17 @@ public class StepDefinitions {
         if (articleResult.equals(articleTitle)) {
             System.out.println("Result displayed: " + articleResult + " Article title: " + articleTitle);
         }
+        else {
+            Assert.fail();
+        }
         pom.testQuit();
 
     }
 
-    @Then("I validate if total results does not exists")
+    @Then("I validate if the counter for total results does not exist")
     public void iValidadeIfTotalResultsDoesnotExists() {
-        Boolean constains = pom.containsUrl();
-        if (!constains) {
+        Boolean contains = pom.containsUrl();
+        if (!contains) {
             System.out.println("[Success]Expected behavior: not display the total result");
         } else {
             System.out.println("It's not the expected behavior to show total results");

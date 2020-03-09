@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5335234d-ac4d-497d-aa04-2c8d965a54e7" name="Default Changelist" comment="" />
+    <list default="true" id="5335234d-ac4d-497d-aa04-2c8d965a54e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WexincTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/WexincTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WexPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WexPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefs/StepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/WexincTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/WexincTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,6 +42,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Yowm6jEVMkB8QZfInlQooUTsHc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -92,25 +107,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="273" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1583625083814" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1583702408767">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1583718881885">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583702408767" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583718881885" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583700949706" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1583702408762">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1583718881883">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583702408762" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583718881883" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1583700949699" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1583702408759">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1583718881882">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583702408759" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583718881882" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1583700949698" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1583702408763">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1583718881884">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583702408763" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583718881884" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583700949704" />
     <state width="744" height="303" key="GridCell.Tab.1.bottom" timestamp="1583645939147">
       <screen x="0" y="0" width="1440" height="900" />
