@@ -68,7 +68,8 @@ public class WexincTest {
     }
 
     public WebElement getCssSelector(String element) {
-        return driver.findElement(new By.ByCssSelector(element));
+        WebDriverWait wait = new WebDriverWait(driver, 60);
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(element)));
     }
 
     public String getUrl(){

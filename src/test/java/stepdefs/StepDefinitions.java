@@ -72,8 +72,7 @@ public class StepDefinitions {
         String urlReturned = pom.getPageUrl();
         if (urlExpect.equals(urlReturned)) {
             System.out.println("The expected page is loaded");
-        }
-        else {
+        } else {
             Assert.fail();
         }
         pom.testQuit();
@@ -84,8 +83,7 @@ public class StepDefinitions {
         String textMessage = pom.getElement("//*[@id=\"mainContent\"]/div[2]/div/div/div/p").getText();
         if (textMessage.equals("Sorry, there are no results that meet this criteria.")) {
             System.out.println("Message returned: " + textMessage);
-        }
-        else {
+        } else {
             Assert.fail();
         }
         pom.testQuit();
@@ -109,8 +107,7 @@ public class StepDefinitions {
         String articleTitle = pom.getCssSelector("body > div.off-canvas-wrapper > div.off-canvas-content > div.wex-hero_container.wex-hero_container--short > div > div > div > div > div > h1").getText();
         if (articleResult.equals(articleTitle)) {
             System.out.println("Result displayed: " + articleResult + " Article title: " + articleTitle);
-        }
-        else {
+        } else {
             Assert.fail();
         }
         pom.testQuit();

@@ -36,7 +36,7 @@ Feature: Wex QA engineer tasks
   Scenario: Validate if the result returned at the list links to the correct specific article
     Given I navigate to “www.wexinc.com”
     When I select the search field
-    Then I insert "credit" in the field
+    Then I insert "payment" in the field
     And I press search
     Then validate if the resulting article is really what is being shown as result
 

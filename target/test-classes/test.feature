@@ -12,7 +12,7 @@ Feature: Wex QA engineer tasks
   Scenario: Test the search functionality when giving a valid word as a parameter
     Given I navigate to “www.wexinc.com”
     When I select the search field
-    Then I insert "health" in the field
+    Then I insert "credit" in the field
     And I press search
     Then I validate the returned result
 
@@ -36,7 +36,7 @@ Feature: Wex QA engineer tasks
   Scenario: Validate if the result returned at the list links to the correct specific article
     Given I navigate to “www.wexinc.com”
     When I select the search field
-    Then I insert "health" in the field
+    Then I insert "payment" in the field
     And I press search
     Then validate if the resulting article is really what is being shown as result
 
@@ -44,6 +44,6 @@ Feature: Wex QA engineer tasks
   Scenario: Check if there is displayed the total number of results for any valid search
     Given I navigate to “www.wexinc.com”
     When I select the search field
-    Then I insert "health" in the field
+    Then I insert "credit" in the field
     And I press search
     Then I validate if the counter for total results does not exist
