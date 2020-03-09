@@ -22,5 +22,5 @@ Tests cases are created and are possible to read in the ``.feature`` file. They'
 
 To run the tests is simple, just open the project on IDE in your preference and run the ``.feature`` file  
 
---
---- Made with ❤️ by Thabata Almeida :computer: [Get in touch!](https://www.linkedin.com/in/thabataalmeida/)
+--- 
+Made with ❤️ by Thabata Almeida :computer: [Get in touch!](https://www.linkedin.com/in/thabataalmeida/)
